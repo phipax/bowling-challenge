@@ -1,0 +1,24 @@
+this._frames.push(frame);
+
+http://www.tothenew.com/blog/connect-to-postgresql-using-javascript/
+
+var i = 0;
+Object.keys(game._frames.F1).map(function(index) {
+   i += myObject['score'];
+});
+
+console.log(i);
+
+
+=============
+x = new Map(Object.entries(game._frames)); // returns collection of Map
+var x = Object.entries(game._frames); // returns array doing x.reverse() will then enable the last two frames available
+
+gscore = 0;
+
+x.forEach((item,key) => {
+	var y = new Map(Object.entries(item));    
+	y.forEach((i,k) => { if(k==='score'){gscore += i;} });
+});
+
+console.log(gscore);
